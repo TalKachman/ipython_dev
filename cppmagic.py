@@ -34,7 +34,6 @@ class CppMagics(ipym.Magics):
     # Cleanup the executable
     os.system("rm temp.exe")
     output = out_run
-    print "nope "
     return output
 
 def load_ipython_extension(ipython):
